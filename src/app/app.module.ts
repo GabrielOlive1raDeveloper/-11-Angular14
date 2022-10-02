@@ -5,16 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CabecalhoComponent } from './componente/cabecalho/cabecalho.component';
 import { RodapeComponent } from './componente/rodape/rodape.component';
+import { CriarPensamentoComponent } from './componente/pensamento/criar-pensamento/criar-pensamento.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     CabecalhoComponent,
-    RodapeComponent
+    RodapeComponent,
+    CriarPensamentoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
