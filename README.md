@@ -1,4 +1,4 @@
-<h2>CRUD de Angular, Situação do Curso: Em Andamento 5/6 </h2>
+<h2>CRUD de Angular, Situação do Curso: Concluído </h2>
 
 ## Versão e softwares utilizado
 Este projeto foi gerado com Angular CLI versão 14.2.4.
