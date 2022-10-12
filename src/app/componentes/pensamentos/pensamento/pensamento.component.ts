@@ -1,5 +1,7 @@
+import { ListarPensamentoComponent } from './../listar-pensamento/listar-pensamento.component';
 import { Pensamento } from './../pensamento';
 import { Component, Input, OnInit } from '@angular/core';
+import { PensamentoService } from '../pensamento.service';
 
 @Component({
   selector: 'app-pensamento',
@@ -20,6 +22,7 @@ export class PensamentoComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
   larguraPensamento(): string {
